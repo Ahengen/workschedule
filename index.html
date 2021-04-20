@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>My Schedule</title>
+</head>
+<body>
+<div class="container w-50">
+    <h1>My Schedule</h1>
+    <h2>Choose a day to view schedule</h2>
+    <input type="radio" name="weekday" id="Monday" data-work="7:00am-4:00pm" data-exericise="7:00pm-8:00pm" checked>
+    <label for="Monday">Monday</label>
+    <br>
+    <input type="radio" name="weekday" id="Tuesday" data-work="7:30am-4:30pm" data-exericise="7:30pm-8:30pm">
+    <label for="Tuesday">Tuesday</label>
+    <br>
+    <input type="radio" name="weekday" id="Wednesday" data-work="7:00am-4:00pm" data-exericise="7:00pm-8:00pm">
+    <label for="Wednesday">Wednesday</label>
+    <br>
+    <input type="radio" name="weekday" id="Thursday" data-work="7:30am-4:30pm"data-exericise="7:30pm-8:30pm">
+    <label for="Thursday">Thursday</label>
+    <br>
+    <input type="radio" name="weekday" id="Friday" data-work="7:00am-4:00pm" data-exericise="7:00pm-8:00pm">
+    <label for="Friday">Friday</label>
+    <br>
+    <input type="radio" name="weekday" id="Saturday" data-work="No Work" data-exericise="12:00pm-2:00pm">
+    <label for="Saturday">Saturday</label>
+    <br>
+    <input type="radio" name="weekday" id="Sunday" data-work="No Work" data-exercise="12:00pm-2:00pm">
+    <label for="Sunday">Sunday</label>
+    <br>
+    Work:
+    <div id="work"></div>
+    Exercise:
+    <div id="exercise"></div>
+</div>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="code.js"></script>
+</body>
+</html>
